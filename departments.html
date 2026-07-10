@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AK Strategy — Departments & Products</title>
+  <link rel="icon" href="assets/img/logo-mark-white.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Sora:wght@600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <main>
+    <section class="section page-top">
+      <div class="section__head reveal">
+        <div class="eyebrow" id="pEyebrow">Products</div>
+        <h2 class="section__title" id="pTitle"></h2>
+        <p class="section__sub" id="pSub"></p>
+      </div>
+      <div class="product-grid" id="productGrid"></div>
+
+      <div class="section__head reveal" style="margin-top:24px">
+        <div class="eyebrow" id="dEyebrow">Departments</div>
+        <h2 class="section__title" id="dTitle"></h2>
+        <p class="section__sub" id="dSub"></p>
+      </div>
+      <div class="dept-tabs reveal" id="deptTabs"></div>
+      <div class="dept-body reveal" id="deptBody"></div>
+
+      <div class="section__head reveal" style="margin-top:56px">
+        <div class="eyebrow" id="nEyebrow">Scale</div>
+        <h2 class="section__title" id="nTitle"></h2>
+      </div>
+      <div class="stat-grid reveal" id="statGrid"></div>
+      <div class="sources reveal">
+        <div class="sources__chart"><svg viewBox="0 0 210 210" id="donut" class="donut"></svg>
+          <div class="sources__center"><b>4</b><span id="srcCenter"></span></div>
+        </div>
+        <div class="sources__legend" id="srcLegend"></div>
+      </div>
+    </section>
+  </main>
+
+  <script src="assets/js/icons.js"></script>
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/shell.js"></script>
+  <script src="assets/js/departments.js"></script>
+</body>
+</html>
