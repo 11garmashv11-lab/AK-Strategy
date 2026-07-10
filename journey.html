@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AK Strategy — Client Journey</title>
+  <link rel="icon" href="assets/img/logo-mark-white.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Sora:wght@600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <main>
+    <section class="section page-top">
+      <div class="section__head reveal">
+        <div class="eyebrow" id="jEyebrow">Roadmap</div>
+        <h2 class="section__title" id="jTitle"></h2>
+        <p class="section__sub" id="jSub"></p>
+      </div>
+    </section>
+
+    <!-- 1. Маркетинг: телефон/рилс -->
+    <div class="jhero reveal">
+      <div class="phone" id="phone"></div>
+      <div class="jhero__copy" id="jheroCopy"></div>
+    </div>
+
+    <!-- 2. Заявка входит в десктопную CRM, отдел продаж -->
+    <section class="crm">
+      <div class="section__head reveal" style="margin-bottom:22px">
+        <div class="eyebrow" id="crmEyebrow"></div>
+        <h3 class="section__title" style="font-size:clamp(22px,3vw,32px)" id="crmTitle"></h3>
+        <p class="section__sub" id="crmSub"></p>
+      </div>
+      <div class="desktop reveal" id="desktop"></div>
+    </section>
+
+    <!-- 3. Передача Sales → Client -->
+    <section class="section handoff-sec">
+      <div class="handoff reveal" id="handoff"></div>
+    </section>
+
+    <!-- 4. Client — связующее звено (скролл-сцена) -->
+    <section class="hub">
+      <div class="hub-intro reveal">
+        <div class="eyebrow" id="hubEyebrow"></div>
+        <h3 class="section__title" style="font-size:clamp(22px,3.2vw,34px)" id="hubTitle"></h3>
+        <p class="section__sub" id="hubSub"></p>
+      </div>
+      <div class="hub-scroll" id="hubScroll">
+        <div class="hub-sticky">
+          <div class="hub-stage" id="hubStage"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. Итог по шагам -->
+    <div class="jstage">
+      <div class="section__head reveal" style="margin-bottom:26px">
+        <div class="eyebrow" id="flowEyebrow"></div>
+        <h3 class="section__title" style="font-size:clamp(22px,3vw,32px)" id="flowTitle"></h3>
+      </div>
+      <div class="j-flow" id="jFlow"></div>
+    </div>
+  </main>
+
+  <script src="assets/js/icons.js"></script>
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/shell.js"></script>
+  <script src="assets/js/journey.js"></script>
+</body>
+</html>
