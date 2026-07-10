@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AK Strategy — Company Explorer</title>
+  <link rel="icon" href="assets/img/logo-mark-white.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Sora:wght@600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <section class="explorer" id="explorer">
+    <div class="exp-hud">
+      <div class="crumbs" id="crumbs"></div>
+    </div>
+
+    <div class="exp-viewport" id="viewport">
+      <div class="exp-world" id="world">
+        <svg class="exp-links" id="links"></svg>
+        <img src="assets/img/logo-mark-white.png" class="exp-watermark" id="watermark" alt="" />
+      </div>
+    </div>
+
+    <div class="exp-hint" id="expHint"></div>
+
+    <div class="exp-zoom">
+      <button id="zoomIn" aria-label="Zoom in"></button>
+      <button id="zoomOut" aria-label="Zoom out"></button>
+      <button id="zoomReset" aria-label="Reset"></button>
+    </div>
+
+    <aside class="dossier" id="dossier"></aside>
+  </section>
+
+  <div class="modal-back" id="modalBack">
+    <div class="modal" id="modal"></div>
+  </div>
+
+  <script src="assets/js/icons.js"></script>
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/shell.js"></script>
+  <script src="assets/js/company.js"></script>
+</body>
+</html>
